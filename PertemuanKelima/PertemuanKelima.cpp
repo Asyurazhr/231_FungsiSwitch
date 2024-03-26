@@ -52,7 +52,7 @@ int main()
 		cin >> pilihan;
 
 
-		switch(pilihan)
+		switch (pilihan)
 		{
 		case 1:
 			inputData();
@@ -72,6 +72,15 @@ int main()
 			break;
 		case 5:
 			break;
+
+		default:
+			cout << "pilihan tidak ada" << endl;
+			break;
+		}
+
+		system("pause");
+		system("CLS");
+	} while (pilihan != 5);
 
 
 	}
